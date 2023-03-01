@@ -34,7 +34,7 @@ return dienthoai;
 public void setdienthoai(int dienthoai) {
 this.dienthoai = dienthoai;
 }
-public void nhapNguyenVong() {
+public void nhacungcap() {
 Scanner input = new Scanner(System.in);
 System.out.println("Nhap ma nha cung cap: ");
 MaNCC = input.nextInt();
