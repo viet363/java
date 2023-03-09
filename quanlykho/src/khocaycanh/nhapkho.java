@@ -1,6 +1,5 @@
 package khocaycanh;
  import java.util.Scanner;
- import java.sql.Date;
  import java.util.ArrayList;
 public class nhapkho extends caycanh 
 {
