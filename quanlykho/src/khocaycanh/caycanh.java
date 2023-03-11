@@ -30,7 +30,7 @@ public class caycanh implements Serializable{
         public void setMaCC(String  MaCC) {
         this.MaCC = MaCC;
         }
-        public void setsoluong(int queQuan) {
+        public void setsoluong(int soluong) {
             this.soluong = soluong;
             }
             public int getsoluong() {
