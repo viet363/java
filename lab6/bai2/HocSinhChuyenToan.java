@@ -1,7 +1,8 @@
 package lab6.bai2;
 
     public class HocSinhChuyenToan extends HocSinh{
-
+              public HocSinhChuyenToan(){
+        }
     public HocSinhChuyenToan(String hoTen, String lop, float toan, float ly, float hoa) {
         super(hoTen, lop, toan, ly, hoa);
     }
