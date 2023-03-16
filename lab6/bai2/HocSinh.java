@@ -6,7 +6,8 @@ public class HocSinh {
     public float toan;
     public float ly;
     public float hoa;
-
+    public HocSinh(){
+        }
     public HocSinh(String hoTen, String lop, float toan, float ly, float hoa) {
         this.hoTen = hoTen;
         this.lop = lop;
