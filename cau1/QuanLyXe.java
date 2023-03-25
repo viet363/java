@@ -48,6 +48,6 @@ public class QuanLyXe {
         this.DoanhThu = DoanhThu;
     }
     
- public String toiString(){
-     System.out.println("Ma so chuyen"+MaSoChuyen()+"Ten tai xe"+HoTen()+"So xe"+SoXe()+"Doanh thu"+DoanhThu());}   
+ public void toiString(){
+     System.out.println("Ma so chuyen"+getMaSoChuyen()+"Ten tai xe"+getHoTen()+"So xe"+getSoXe()+"Doanh thu"+DoanhThu());}   
 }
