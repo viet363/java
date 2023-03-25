@@ -6,10 +6,9 @@ public class XeNgoaiThanh extends QuanLyXe {
     private String noiden;
     private float songaydi;
 
-    public void XeNgoaiThanh(String MaSoChuyen, String HoTen, String SoXe, long DoanhThu, String noiden, float songaydi) {
-
+    public XeNgoaiThanh(String MaSoChuyen, String HoTen, String SoXe, long DoanhThu) {
+        super(MaSoChuyen, HoTen, SoXe, DoanhThu);
     }
-
     public String getNoiden() {
         return noiden;
     }
@@ -46,3 +45,4 @@ public class XeNgoaiThanh extends QuanLyXe {
        +"so ngay di ");
    }
 }
+
