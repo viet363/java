@@ -7,11 +7,11 @@ public class XeNoiThanh extends QuanLyXe {
 
     private int sochuyen;
     private float sokmdi;
-    
-    public void XeNoiThanh(String MaSoChuyen, String HoTen, int SoXe, long DoanhThu, int sochuyen, float sokmdi) {
-       
+   
+ public XeNoiThanh(String MaSoChuyen, String HoTen, String SoXe, long DoanhThu) {
+        super(MaSoChuyen, HoTen, SoXe, DoanhThu);
     }
-
+    
     public int getSochuyen() {
         return sochuyen;
     }
