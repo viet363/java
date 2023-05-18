@@ -73,10 +73,10 @@ public class Order {
         return tongtien;
     }
     public void Xuat(){
-        System.out.format("%5s %-10s %-15s %-15s %-15s %-20s\n",
+        System.out.format("%-5s %-10s %-15s %-15s %-15s %-20s\n",
                 "STT", "| Ma SP", "|Mo ta", "|Don gia", "|So Luong", "|Thanh tien");
         for (OrderDetail o : lineItems) {
-    System.out.format("%5s %-10s %-15s %-15s %-15s %-20s\n",
+    System.out.format("%-5s %-10s %-15s %-15s %-15s %-20s\n",
             lineItems.indexOf(o)+1,
             o.product.getProductID(),
             o.product.getDescription(),
