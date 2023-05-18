@@ -18,6 +18,7 @@ public class main {
         OrderDetail x6 = new OrderDetail(h, 6);
         OrderDetail x7 = new OrderDetail(g, 7);
         Order o = new Order();
+        Order o1= new Order(1, LocalDate.now());
         o.addLineItem(a, 10);
         o.addLineItem(b, 5);
         o.addLineItem(c, 1);
@@ -25,7 +26,7 @@ public class main {
         o.addLineItem(e, 2);
         o.addLineItem(g, 2);
         o.addLineItem(h, 2);
-        System.out.println("Ma HD" + o.getOrderID());
+        System.out.println("Ma HD" + o1.getOrderID());
         System.out.println("Ngay lap hoa don:"+LocalDate.now());
         o.Xuat();
         System.out.println("tong tien thanh toan:" + o.calcTotalCharge() + "VND");
